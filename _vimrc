@@ -149,7 +149,7 @@ set noswapfile
 "Persistent undo
 try
     if MySys() == "windows"
-      set undodir=g:\SystemFolder\Temp\.vim_runtime\
+      set undodir=g:\SystemFolder\Temp\.vim_runtime\undodir\
     else
       set undodir=~/.vim_runtime/undodir
     endif
