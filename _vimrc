@@ -15,6 +15,7 @@ Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'drmingdrmer/xptemplate'
+Plugin 'tpope/vim-surround'
 "Plugin 'myplugins'
 "Plugin 'hallison/vim-darkdevel'
 Plugin 'tomasr/molokai'
@@ -402,3 +403,5 @@ au BufNewFile,BufRead *.wsgi set filetype=python
 let g:rehash256 = 1
 let g:molokai_original = 0
 set cursorline
+
+let g:NERDSpaceDelims=1
